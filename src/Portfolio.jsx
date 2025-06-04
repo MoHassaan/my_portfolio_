@@ -109,6 +109,35 @@ const Portfolio = () => {
           </li>
         </ul>
       </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold mb-4">Publications</h2>
+        <div className="p-4 bg-white rounded shadow">
+          <p>
+            <strong>Movies and Books Recommendation System Based on Cosine Similarity & K-Nearest Neighbour Algorithm</strong>
+          </p>
+          <p>
+            Published in the International Scientific Journal of Engineering & Management (ISJEM), Volume 03, Issue 05, May 2024
+          </p>
+          <p>
+            <strong>DOI:</strong> 10.55041/ISJEM02038
+          </p>
+          <p>
+            <strong>Author:</strong> Mohammad Hassaan
+          </p>
+          <p>
+            (Certified by EdTech Publishers, Bangalore, India)
+          </p>
+          <a
+            href={require("./research_paper_cert.jpg")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-500 underline"
+          >
+            View Certificate
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
